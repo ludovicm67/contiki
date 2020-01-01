@@ -39,6 +39,15 @@
 #ifndef __PROJECT_ERBIUM_CONF_H__
 #define __PROJECT_ERBIUM_CONF_H__
 
+// custom configuration
+#undef RF_CHANNEL
+#define RF_CHANNEL                     12
+#undef IEEE802154_CONF_PANID
+#define IEEE802154_CONF_PANID          0x0012
+#undef NETSTACK_CONF_RDC
+#define NETSTACK_CONF_RDC              nullrdc_driver // contikimac_driver
+// end custom configuration
+
 /* Custom channel and PAN ID configuration for your project. */
 /*
    #undef RF_CHANNEL
