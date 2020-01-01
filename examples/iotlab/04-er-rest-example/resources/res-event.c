@@ -40,7 +40,7 @@
 #include "rest-engine.h"
 #include "er-coap.h"
 
-#define DEBUG 0
+#define DEBUG 3
 #if DEBUG
 #include <stdio.h>
 #define PRINTF(...) printf(__VA_ARGS__)

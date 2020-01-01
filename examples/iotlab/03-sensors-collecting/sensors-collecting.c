@@ -1,3 +1,5 @@
+#define DEBUG 3
+
 #include "contiki.h"
 #include <stdio.h>
 

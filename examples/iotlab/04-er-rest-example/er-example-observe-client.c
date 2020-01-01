@@ -45,7 +45,7 @@
 #include "dev/button-sensor.h"
 
 /*----------------------------------------------------------------------------*/
-#define DEBUG 0
+#define DEBUG 3
 #if DEBUG
 #define PRINTF(...) printf(__VA_ARGS__)
 #define PRINTFLN(format, ...) printf(format "\n", ##__VA_ARGS__)
