@@ -45,7 +45,7 @@
 
 #include "dev/serial-line.h"
 
-#define DEBUG 3
+#define DEBUG 0
 #if DEBUG
 #include <stdio.h>
 #define PRINTF(...) printf(__VA_ARGS__)
