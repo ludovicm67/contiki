@@ -51,7 +51,7 @@
 #include "net/netstack.h"
 #include <string.h>
 
-#define DEBUG DEBUG_FULL
+#define DEBUG DEBUG_NONE
 #include "net/ip/uip-debug.h"
 
 /*---------------------------------------------------------------------------*/
