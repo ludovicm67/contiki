@@ -49,7 +49,7 @@
 #include "dev/watchdog.h"
 #include <string.h>
 
-#define DEBUG DEBUG_NONE
+#define DEBUG DEBUG_FULL
 #include "net/ip/uip-debug.h"
 
 #define TRICKLE_VERBOSE 0

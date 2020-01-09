@@ -53,10 +53,10 @@
 
 extern uint16_t uip_slen;
 
-#define DEBUG NONE
+#define DEBUG 1
 #include "net/ip/uip-debug.h"
 
-#define ESMRF_VERBOSE NONE
+#define ESMRF_VERBOSE 1
 
 #if DEBUG && ESMRF_VERBOSE
 #define VERBOSE_PRINTF(...) PRINTF(__VA_ARGS__)
