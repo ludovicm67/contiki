@@ -8,6 +8,8 @@
 #define IEEE802154_CONF_PANID          0x0012
 #undef NETSTACK_CONF_RDC
 #define NETSTACK_CONF_RDC              nullrdc_driver // contikimac_driver
+#define RF2XX_TX_POWER                 PHY_POWER_m17dBm
+#define RF2XX_RX_RSSI_THRESHOLD        RF2XX_PHY_RX_THRESHOLD__m84dBm
 // end custom configuration
 
 #endif
